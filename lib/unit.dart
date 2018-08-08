@@ -18,7 +18,7 @@ class Unit {
   })  : assert(name != null),
         assert(conversion != null);
 
-  /// Creates a [Unit] from a JSON object.
+  /// Creates a [Unit] from a JSON object. Constructor y Sirve para buscar en el Json
   Unit.fromJson(Map jsonMap)
       : name = jsonMap['name'],
         conversion = jsonMap['conversion'].toDouble(),

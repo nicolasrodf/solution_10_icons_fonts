@@ -81,7 +81,7 @@ class _CategoryRouteState extends State<CategoryRoute> {
     'assets/icons/time.png',
     'assets/icons/digital_storage.png',
     'assets/icons/power.png',
-    'assets/icons/currency.png',
+    'assets/icons/currency.png', //currency se agrega en la parte 11 (no esta en regular_units.json)
   ];
 
   @override

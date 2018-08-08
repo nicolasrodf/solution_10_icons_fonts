@@ -116,7 +116,7 @@ class _UnitConverterState extends State<UnitConverter> {
           final inputDouble = double.parse(input);
           _showValidationError = false;
           _inputValue = inputDouble;
-          _updateConversion();
+          _updateConversion(); //hacer la conversion
         } on Exception catch (e) {
           print('Error: $e');
           _showValidationError = true;
